@@ -2,7 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.webp'
+import ME from '../../assets/shrek.png'
 import SocialIcons from '../socialicons/SocialIcons'
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <div className="container header__container">
         <h5 className='text-light'>Olá, meu nome é </h5>
-        <h1 className='text-light'>André Tavares</h1>
+        <h1 className='text-light'>Vitor Alexandre</h1>
         {" "}
         <h3 className="mono text-light">
           <Typical
